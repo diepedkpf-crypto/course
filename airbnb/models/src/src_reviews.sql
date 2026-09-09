@@ -1,5 +1,8 @@
 WITH RAW_REVIEWS AS (
-    SELECT * FROM AIRBNB.RAW.RAW_REVIEWS
+    SELECT 
+        * 
+    FROM 
+        AIRBNB.RAW.RAW_REVIEWS
 )
 SELECT 
     listing_id,

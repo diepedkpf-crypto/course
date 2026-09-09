@@ -1,9 +1,12 @@
 WITH RAW_HOSTS AS (
-    SELECT * FROM AIRBNB.RAW.RAW_HOSTS
+    SELECT 
+        * 
+    FROM 
+        AIRBNB.RAW.RAW_HOSTS
 )
 SELECT
-    id,
-    name,
+    id AS host_id,
+    name AS host_name,
     is_superhost,
     created_at,
     updated_at
