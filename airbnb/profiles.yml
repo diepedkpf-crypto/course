@@ -1,0 +1,16 @@
+airbnb:
+  outputs:
+    dev:
+      type: snowflake
+      account: fiszwmw-db37727
+      user: dbt
+
+      role: TRANSFORM
+      private_key: "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIFJDBWBgkqhkiG9w0BBQ0wSTAxBgkqhkiG9w0BBQwwJAQQCgMoSJkLQD1Liv5E\nzqxBXAICCAAwDAYIKoZIhvcNAgkFADAUBggqhkiG9w0DBwQI+xtxLQcsgPkEggTI\nexIVGfjxam49TT8JfFFTIQDG/3QApmDl7qhbB5T0L/5XZv4IGzkKSOXRXkm1x+6s\naa/fCjVj1FWatinekOKTMJ2jfBO2WdPCmKbuvcDaeymYXDWKu/lEI18X1FyemDpk\nV5V35hIkTDxyIrumkQUQfOWsgTRkhBmBGXHl2S47nuklLErXVxTk5qk9eBG9MwPF\n9HAHTou94Kau5sWDKIWawO9FYkwbYKesEavuI93CMBOqoi51o+uxh1X7jJYQemei\noK1OFHnpbkCzkW7PNnHxwMCu0WnVL7aiiqZnqiGbEQ/4bLOGOSV1sq0CUS4srqWE\nzYja5k54IAsG8JwDm87NzOHOPFgrdAAJoJw7JyPUbivycg6jQzRy4/LX3aeQwLrH\n36D6pc5qn6WDS9yDvL6vjT7nzKcHclpQI7UtaJDfmqVI6mesdHUm3YGzdPADFzUz\nqd2RrqfbLUHh7ulL5tSHsHyxZLH6Xx4pIukd4AOs40ejlRaDcboH3Fk7oDhKkpci\nTiR7EvdG9ptBqxHtGrSQV/2CC/z6BoBjix1dauzSkZMBd+TT+jce0+slvZYG0tUW\nXqVLXe0kc4A8dQQIzrha2uyygoXjyDM34v+17yH5Cd+ZFA9FLxjMuIrC2O8YDr2b\n/RF5+qEvX5VUbJ6uEGyHNokLWEv4aUGKio5Ci0XdmUc0C080a4gXpRSchs69eKRT\nR/rNAs5x3umG50uqu2P971VhBnE5ArKo0tLggACl0eCZJq5AcFSZr/YalqrW/zwo\nhEQY4kzilznVmmd4QPHAE7JubweazP+trdCHXFYDXNVZ04+vnKtXbVhG2LuzHLeW\ngNuQ/SFQUb3Xf9/wYOs9Use26ETZf8NpGWOTzP64Zn+pFDlf8m/o23BQtqokJ5hv\nybkD9U44rLHcfY5l/lGZy8izrHqUBsFMZWVAWXw6lxaKnjfN0YtfejfKHTdj3KIK\nqm3MlczQAwLCRxmzAfh5U11YXNGq4bvx5YFSn1WNlRjQ6Xa+ViNRvN7ZzVww8rqe\nDpRNxglWbf7I+BwhWsy1cgzcIVTrVnFXi5rorSod5oqXJp24b6F2uxGaro/q3jm/\nizsQzO2pklQ2Rd1h3VnpyBeRT8eD+trsL89X4a+stS+MI52e9EMNSp4wZezlMANd\nJnlGN3FzMOnjFn1ae7YcS22LZ2M/+5y7W8qSb6hswROWtSjcsIgbaAOcmL04Cq1w\nkItVeVxwfdzUrhtIIJZ3eIYhVpSnN9weqisCu72tfpa6qIo/HAG2C9RlP/HV46A5\nqr4zs8Ng7HBeS4wR4ZxnRIOMDZr+JTBdRjzJPSn/VsU+ECEIfx5TphsKLzkqBb0q\n9FYGKzI1bytASHusNtIOIiPEoITvhzhBcByg2iL30kSx9Ifr1E0v5RkKQ0PsL+zi\nqwdaHcA8qYiSZk8AxJkvIPOGkP7MC6H/EXxFxWbABVhDNl5jbJkWgJpJEKNl77E1\n/gVMa7crAisgsRWjcnLqVTkyYLmQsrQ+7FCptZ2WsmMbv3DVlaknsOKj3vJXZi4F\n8lWk7YOj9ipn3vxQb5cv/OFknCV9iWjJpm0ELnbysKs1W1al+TOOpT5XE58upBjk\n4c24NFTSPh2NViykK1s3xzgj8qXn0ZQO\n-----END ENCRYPTED PRIVATE KEY-----\n"
+      private_key_passphrase: Physiques@1996
+
+      database: AIRBNB
+      schema: DEV
+      threads: 2
+      warehouse: COMPUTE_WH
+  target: dev
